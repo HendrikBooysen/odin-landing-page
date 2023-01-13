@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 
 .section1{
     background-color: #1F2937;
@@ -8,13 +10,13 @@ body{
 }
 
 *{
-    font-family: roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 100px; 
+    padding: 0 300px; 
 }
 .navbar h6{
     font-size: 24px;
@@ -39,8 +41,10 @@ a {
 
 .hero{
     display: flex;
-    padding: 0 100px;
+    justify-content: space-between;
+    padding: 100px 300px;
 }
+
 
 .hero1 h1{
     font-size: 48px;
@@ -58,9 +62,69 @@ a {
     color: #f9faf8;
     font-weight: bold;
     border-radius: 8px;
-    border-color: #3882f6;
     padding: 8px 24px;
     font-size: 18px;
+    border: none;
+     
 }
 
+.hero1 h1, p{
+   width: 500px; 
+}
+.hero-img{
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    height: 60%;
+    padding: 100px;
+    background-color: darkgrey;
+}
 
+.hero-img p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Section 1 End */
+
+/* Section 2 Start */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info h2{
+
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    
+}
+
+.info img{
+    width: 150px;
+    height: 100px;
+    border: #3882f6 solid 3px;
+    border-radius: 8px;
+    
+}
+.all-images{
+    display: flex;
+}
+.image{
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 200px;
+}
+.image p{ 
+    text-align: center;
+    width: 150px;
+    font-size: 15px;
+    color: #5a5e64;
+}
