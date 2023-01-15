@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-
-.section1{
-    background-color: #1F2937;
-}
-
-body{
-    margin: 0 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap');
 
 *{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+
+/* Start Header/Navbar  "Header/Navbar" */
+
+.header{
+    background-color: #1F2937;
+}
+
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -39,6 +42,10 @@ a {
     margin-left: 20px;
 }
 
+/* Header/Navbar  End  */
+
+/* Section 1 Start "Hero Tab" */
+
 .hero{
     display: flex;
     justify-content: space-between;
@@ -50,11 +57,14 @@ a {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    width: 500px;
 }
 
 .hero1 p{
     font-size: 18px;
     color: #E5E7EB;
+    width: 500px;
+    margin-bottom: 10px;
 }
 
 .button{
@@ -68,16 +78,13 @@ a {
      
 }
 
-.hero1 h1, p{
-   width: 500px; 
-}
 .hero-img{
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
     height: 60%;
     padding: 100px;
-    background-color: darkgrey;
+    background-color: #6d747d;
 }
 
 .hero-img p{
@@ -85,9 +92,10 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 /* Section 1 End */
 
-/* Section 2 Start */
+/* Section 2 Start  " Information Tab "*/
 
 .info{
     display: flex;
@@ -101,6 +109,8 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 50px;
+    margin-top: 50px;
     
 }
 
@@ -113,10 +123,12 @@ a {
 }
 .all-images{
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 .image{
     display: flex;
-flex-direction: column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
    
@@ -128,3 +140,87 @@ flex-direction: column;
     font-size: 15px;
     color: #5a5e64;
 }
+
+/* Section 2 End*/
+
+/* Section 3 Start " Quote Tab "*/
+
+.quote-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+    background-color:#E5E7EB ;
+    text-align: center;
+    width: 100%;
+}
+
+.quote-main p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 24px;
+    width: 760px;
+    text-align: left;
+}
+
+.quote-main .quote-name{
+    font-size: 18px;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Section 3 End */
+
+
+/* Section 4  Start  "The Sign up Tab" */
+
+.section4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    height: 100px;
+    border-radius: 8px;
+    margin: 50px 200px;
+}
+
+.section4 button{
+
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-size: 18px;
+    border: white solid 1px;
+
+}
+
+.section4 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section4 h2{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+/* Section 4 End */
+
+/* Footer Start "Footer of HTML Page"*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #f9faf8;
+    padding: 20px 0px ;
+}
+
+/* Footer End */
